@@ -58,5 +58,5 @@ app.delete('/api/pokemon-owner/:id',(req,res)=> {
     res.status(204).send();
 });
 app.listen(PORT,() => {
-    console.log('Server is running on http://localhost;${PORT}');
+    console.log('Server is running on http://localhost:${PORT}');
 });
